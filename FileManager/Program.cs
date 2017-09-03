@@ -10,6 +10,11 @@ namespace FileManager
     {
         static void Main(string[] args)
         {
+            Controller c = new Controller();
+            Manager m = new Manager(c);
+            m.BeginManage();
+
+
         }
     }
 }

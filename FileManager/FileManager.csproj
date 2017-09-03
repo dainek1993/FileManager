@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleDisplayer.cs" />
+    <Compile Include="ConsoleHelper.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="IDispleyable.cs" />
+    <Compile Include="IndexChangeEvntArg.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="MoveEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Container.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
